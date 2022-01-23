@@ -23,7 +23,7 @@
 <body>
   <header>
     <!-------------- navbar start-------------->
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
       <div class="container">
         <a class="navbar-brand" href="#">
           <img src="images/logo.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
@@ -34,7 +34,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex align-items-center">
             <li class="nav-item ms-4">
               <a class="nav-link fw-bold active" aria-current="page" href="#">Home</a>
             </li>
@@ -68,52 +68,165 @@
             <div class="carousel-caption d-flex align-items-center justify-content-center h-50 mb-lg-0 mb-5">
               <div>
                 <h1 class="fw-bolder fs-lg-1 fs-4">CELEBRATE YOUR EVENTSTHAT LASTS LONGER</h1>
-                <p class="fs-lg-5 fs-6 pb-lg-4 pb-3">Making your events smarter & impactful by personalised <br> event management</p>
+                <p class="fs-lg-5 fs-6 pb-lg-4 pb-3">Making your events smarter & impactful by personalised <br> event
+                  management</p>
                 <a href="#" class="button">Book Now</a>
               </div>
             </div>
           </div>
           <div class="carousel-item" style="background-image: url(images/bg-2.jpg);">
-              <div class="carousel-caption d-flex align-items-center justify-content-center h-50 mb-lg-0 mb-5">
-                <div>
-                  <h1 class="fw-bolder fs-lg-1 fs-4">WE PERSONALIZE YOUR WEDDING EVENTS</h1>
-                  <p class="fs-lg-5 fs-6 pb-lg-4 pb-3">Your love isn't ordinary—and neither are our websites. <br> Find a design made to fit your style.</p>
-                  <a href="#" class="button">Book Now</a>
-                </div>
+            <div class="carousel-caption d-flex align-items-center justify-content-center h-50 mb-lg-0 mb-5">
+              <div>
+                <h1 class="fw-bolder fs-lg-1 fs-4">WE PERSONALIZE YOUR WEDDING EVENTS</h1>
+                <p class="fs-lg-5 fs-6 pb-lg-4 pb-3">Your love isn't ordinary—and neither are our websites. <br> Find a
+                  design made to fit your style.</p>
+                <a href="#" class="button">Book Now</a>
               </div>
+            </div>
+          </div>
+          <div class="carousel-item" style="background-image: url(images/bg-3.jpg);">
+            <div class="carousel-caption d-flex align-items-center justify-content-center h-50 mb-lg-0 mb-5">
+              <div>
+                <h1 class="fw-bolder fs-lg-1 fs-4">The Venue of Choice for Show</h1>
+                <p class="fs-lg-5 fs-6 pb-lg-4 pb-3">All of your delegates and employees will have the fresh <br> air to
+                  enjoy the day of celebration.</p>
+                <a href="#" class="button">Book Now</a>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-        <div class="carousel-item" style="background-image: url(images/bg-3.jpg);">
-          <div class="carousel-caption d-flex align-items-center justify-content-center h-50 mb-lg-0 mb-5">
-            <div>
-              <h1 class="fw-bolder fs-lg-1 fs-4">The Venue of Choice for Show</h1>
-              <p class="fs-lg-5 fs-6 pb-lg-4 pb-3">All of your delegates and employees will have the fresh <br> air to enjoy the day of celebration.</p>
-              <a href="#" class="button">Book Now</a>
+      </div>
+    </section>
+  </header>
+  <!------------- main section ------------->
+  <main class="container">
+    <!------------ package section ----------->
+    <section class="my-5">
+      <h1 class="text-center">Our Package</h1>
+      <div class="row row-cols-1 row-cols-lg-4 row-cols-md-2 row-cols-sm-1 row-cols-1 g-4 p-5">
+        <div class="col">
+          <div class="card h-100 border-0 py-4 px-2">
+            <div class="card-body">
+              <h2 class="card-title">$450</h2>
+              <h3 class="">Birthday Parties</h3>
+              <p class="text-muted">For most birthday event
+                like book fair, craft fair.</p>
+              <ul class="list-unstyled text-muted">
+                <li><i class="far fa-check-circle bg-primary text-white rounded-circle me-2"></i>limited space access
+                </li>
+                <li><i class="far fa-check-circle bg-primary text-white rounded-circle me-2"></i>Secuirty facility</li>
+                <li><i class="far fa-check-circle bg-primary text-white rounded-circle me-2"></i>event support</li>
+                <li><i class="far fa-check-circle bg-primary text-white rounded-circle me-2"></i>Decoration design</li>
+                <li><i class="far fa-check-circle bg-primary text-white rounded-circle me-2"></i>FREE Gifts for Kids
+                </li>
+                <li><i class="far fa-check-circle bg-primary text-white rounded-circle me-2"></i>Per day bill</li>
+              </ul>
+            </div>
+            <div class="mb-2 text-center">
+              <a href="" class="button ">Choose plan</a>
             </div>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-          data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-          data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+        <div class="col">
+          <div class="card h-100 py-4 px-2">
+            <div class="card-body">
+              <h2 class="card-title">$800</h2>
+              <h3 class="">wedding basic</h3>
+              <p class="text-muted">For weddings with basic plan
+                and limited item</p>
+              <ul class="list-unstyled text-muted">
+                <li><i class="far fa-check-circle bg-primary text-white rounded-circle me-2"></i>Full space access</li>
+                <li><i class="far fa-check-circle bg-primary text-white rounded-circle me-2"></i>Food arrangement</li>
+                <li><i class="far fa-check-circle bg-primary text-white rounded-circle me-2"></i>mangement support</li>
+                <li><i class="far fa-check-circle bg-primary text-white rounded-circle me-2"></i>Decoration design</li>
+                <li><i class="far fa-check-circle bg-primary text-white rounded-circle me-2"></i>FREE Gifts for Kids
+                </li>
+                <li><i class="far fa-check-circle bg-primary text-white rounded-circle me-2"></i>Billed as shift</li>
+              </ul>
+            </div>
+            <div class="mb-2 text-center">
+              <a href="" class="button ">Choose plan</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 h-100 py-4 px-2 active">
+            <div class="card-body">
+              <h2 class="card-title">$1000</h2>
+              <h3 class="">Wedding plus</h3>
+              <p class="text-muted">For most weddings with premium plans</p>
+              <ul class="list-unstyled text-muted">
+                <li><i class="far fa-check-circle bg-primary text-white rounded-circle me-2"></i>Full space access
+                </li>
+                <li><i class="far fa-check-circle bg-primary text-white rounded-circle me-2"></i>Dedicated team</li>
+                <li><i class="far fa-check-circle bg-primary text-white rounded-circle me-2"></i>Buffet food</li>
+                <li><i class="far fa-check-circle bg-primary text-white rounded-circle me-2"></i>premium Decoration
+                </li>
+                <li><i class="far fa-check-circle bg-primary text-white rounded-circle me-2"></i>FREE Gifts for Kids
+                </li>
+                <li><i class="far fa-check-circle bg-primary text-white rounded-circle me-2"></i>pay as plan</li>
+              </ul>
+            </div>
+            <div class="text-center mb-2">
+              <a href="" class="button">Choose plan</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 h-100 py-4 px-2">
+            <div class="card-body">
+              <h2 class="card-title">$1250</h2>
+              <h3 class="">Corporate event</h3>
+              <p class="text-muted">For most corporate business
+                events</p>
+              <ul class="list-unstyled text-muted">
+                <li><i class="far fa-check-circle bg-primary text-white rounded-circle me-2"></i>Full space access</li>
+                <li><i class="far fa-check-circle bg-primary text-white rounded-circle me-2"></i>Breakfast & Lunch for
+                  Everyone</li>
+                <li><i class="far fa-check-circle bg-primary text-white rounded-circle me-2"></i>FREE Gifts for Kids
+                </li>
+                <li><i class="far fa-check-circle bg-primary text-white rounded-circle me-2"></i>Full Services
+                  Consultation</li>
+                <li><i class="far fa-check-circle bg-primary text-white rounded-circle me-2"></i>premium Decoration</li>
+                <li><i class="far fa-check-circle bg-primary text-white rounded-circle me-2"></i>Buffet food</li>
+                <li><i class="far fa-check-circle bg-primary text-white rounded-circle me-2"></i>pay as plan</li>
+              </ul>
+            </div>
+            <div class="text-center mb-2">
+              <a href="" class="button">Choose plan</a>
+            </div>
+          </div>
+        </div>
       </div>
+      <button type="button" class="btn btn-outline-danger d-block ms-auto" id="liveToastBtn">For New Member(toast)</button>
+
+<div class="position-fixed bottom-50 end-0 p-3" style="z-index: 11; ">
+  <div id="liveToast" class="toast rounded-pill" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-body rounded-pill" style=" background-color: #FE3E01; color: #fff;">
+      Hello, <span class="fw-bold text-dark">#devents101</span> is promocode for new Member.
+    </div>
+  </div>
+</div>
     </section>
-
-  </header>
-
+  </main>
 
 
 
 
 
 
-
-
+  <!--------- custom js------------>
+  <script src="js/main.js"></script> <!--bootstrap theke tost dekhar jonno ei js banano-->
   <!------------- bootstrap js cdn link ------------->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
