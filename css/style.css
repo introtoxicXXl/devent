@@ -8,6 +8,15 @@
 nav{
   background-color: #fff;
 }
+nav .active{
+  color: #FE3E01 !important;
+}
+nav .nav-link:hover{
+  color: #FE3E01 !important;
+}
+.home{
+  margin-top: 60px;
+}
 
 .home .carousel-item{
   min-height: 75vh;
@@ -48,6 +57,7 @@ nav{
   background-color: #FE3E01;
   position: relative;
   top: -30px;
+  margin-top: 10px;
 }
 .card.active h2,h3{
   color: #fff;
@@ -74,3 +84,11 @@ nav{
   border-radius: 40px;
 }
 
+.toast-border{
+  border-left: 5px solid #331309;
+  border-radius: 5px;
+}
+
+.basic-color{
+  color: #FE3E01;
+}
