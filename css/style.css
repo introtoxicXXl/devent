@@ -123,13 +123,23 @@ nav .nav-link:hover{
   color: #FE3E01;
 }
 
+.contact{
+  background-color: #FE3E01;
+  width: 100%;
+}
+
+.contact-form{
+  border: 1px solid #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
 .contact input{
   background-color: transparent;
 }
 
 .contact input::placeholder{
   background-color: transparent;
-  color: #000;
+  color: rgb(68, 67, 67);
 }
 
 .contact .form-select{
