@@ -5,40 +5,7 @@
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
 }
-
-nav{
-  background-color: #fff;
-}
-
-nav .active{
-  color: #FE3E01 !important;
-}
-
-nav .nav-link:hover{
-  color: #FE3E01 !important;
-}
-
-.home{
-  margin-top: 60px;
-}
-
-.home .carousel-item{
-  min-height: 75vh;
-  background-position: center;
-  background-size: cover;
-  position: relative;
-}
-
-.home .carousel-item::before{
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.589);
-}
-
+ /*------------- custom button ------------*/
 .button{
   color: #FE3E01;
   background-color: transparent;
@@ -69,6 +36,46 @@ nav .nav-link:hover{
   background-color: #FE3E01;
 }
 
+/*------------- basic color ------------*/
+.basic-color{
+  color: #FE3E01;
+}
+
+ /*------------- nav ------------*/
+nav{
+  background-color: #fff;
+}
+
+nav .active{
+  color: #FE3E01 !important;
+}
+
+nav .nav-link:hover{
+  color: #FE3E01 !important;
+}
+/*------------- home ------------*/
+.home{
+  margin-top: 60px;
+}
+
+.home .carousel-item{
+  min-height: 75vh;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.home .carousel-item::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.589);
+}
+
+ /*------------- card ------------*/
 .card{
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   border-radius: 25px !important;
@@ -114,15 +121,14 @@ nav .nav-link:hover{
   border-radius: 40px;
 }
 
+ /*------------- toast ------------*/
 .toast-border{
   border-left: 5px solid #331309;
   border-radius: 5px;
 }
 
-.basic-color{
-  color: #FE3E01;
-}
 
+ /*------------- contact ------------*/
 .contact{
   background-color: #FE3E01;
   width: 100%;
@@ -147,6 +153,7 @@ nav .nav-link:hover{
   background-color: transparent;
 }
 
+ /*------------- footer ------------*/
 footer{
   width: 100%;
   height: 180px;
