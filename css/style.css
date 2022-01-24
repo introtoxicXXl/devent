@@ -126,6 +126,7 @@ nav .nav-link:hover{
 .contact{
   background-color: #FE3E01;
   width: 100%;
+  overflow-x: hidden;
 }
 
 .contact-form{
