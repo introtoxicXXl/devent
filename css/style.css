@@ -45,6 +45,16 @@ nav .nav-link:hover{
   display: inline-block;
   text-align: center;
 }
+.button.active{
+  background-color: #FE3E01;
+  color: #fff;
+  border: 1px solid #fff;
+}
+.button.active:hover{
+  background-color: #fff;
+  border: 1px solid #fff;
+  color: #FE3E01;
+}
 .button:hover{
   color: #fff;
   background-color: #FE3E01;
@@ -96,6 +106,21 @@ nav .nav-link:hover{
 
 .basic-color{
   color: #FE3E01;
+}
+
+.contact input{
+  background-color: transparent;
+}
+.contact input::placeholder{
+  background-color: transparent;
+  color: #000;
+}
+.contact .form-select{
+  background-color: transparent;
+}
+
+.contact h2{
+  f
 }
 
 footer{
